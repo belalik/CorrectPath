@@ -23,21 +23,8 @@ namespace ConsoleApp1
         {
             CreateAllRoutes(str);
             allPossibleRoutes = CleanUp(dirtyRoutes);
-
-            //Console.WriteLine("all possible size: "+allPossibleRoutes.Count);
-            //Console.WriteLine("dirty size: "+dirtyRoutes.Count);
-            //Console.WriteLine();
-            //Console.WriteLine("trying for: "+str);
-            //for (int i=0; i<allPossibleRoutes.Count; i++)
-            //{
-            //    Console.WriteLine(allPossibleRoutes.ElementAt(i));
-            //}
-
-
             string path = Move(str);
-            //Console.WriteLine("Tried with: "+str);
-            //Console.WriteLine("FINAL PATH IS: "+path);
-            //return path;
+          
             return path;
             
         }
