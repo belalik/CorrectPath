@@ -379,13 +379,6 @@ namespace ConsoleApp1
         }
 
     }
-
-    class Movement
-    {
-        
-        public Cell FromCell { get; set; }
-        public Cell ToCell { get; set; }
-    }
 }
 
 
